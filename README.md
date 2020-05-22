@@ -1,4 +1,12 @@
 # Minetest ColoredCement
-- Adds Cement Blocks
-- Colorize it with Unifydyes
+
+> Adds the following blocks
+  - Hard Cement
+  - Sanded Cement
+
+> Dependencies
+  - Unifydyes
+  - Default
 _______________________________________
+
+Colour the blocks with Dye Airbush

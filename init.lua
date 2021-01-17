@@ -2,7 +2,7 @@
 -- VARIABLE
 ------------
 local S = minetest.get_translator("coloredcement")
-local coloredcementversion = "1.0"
+local coloredcementversion = "01-21 v1"
 
 
 -- END VARIABLE

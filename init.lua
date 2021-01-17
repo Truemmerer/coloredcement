@@ -1,7 +1,7 @@
 ------------
 -- VARIABLE
 ------------
--- local S = default.get_translator
+local S = minetest.get_translator("coloredcement")
 local coloredcementversion = "1.0"
 
 
@@ -31,8 +31,7 @@ end
 -- Register hard Cement
 ------------------------
 minetest.register_node("colordcement:hard", {
-  --description = S("Hard Cement"),
-  description = ("Hard Cement"),
+  description = S("Hard Cement"),
   tiles = {"cement_hard.png"},
   paramtype = "light",
 	paramtype2 = "color",
@@ -60,8 +59,7 @@ minetest.register_craft({
 ------------------------
 
 minetest.register_node("colordcement:sanded", {
-  --description = S("Sanded Cement"),
-  description = ("Sanded Cement"),
+  description = S("Sanded Cement"),
   tiles = {"cement_sanded.png"},
   paramtype = "light",
 	paramtype2 = "color",

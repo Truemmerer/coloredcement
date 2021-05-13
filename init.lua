@@ -1,8 +1,14 @@
+--------------
+-- Load Walls
+--------------
+local modpath = minetest.get_modpath(minetest.get_current_modname())
+dofile(modpath.."/colored_walls.lua")
+
 ------------
 -- VARIABLE
 ------------
 local S = minetest.get_translator("coloredcement")
-local coloredcementversion = "01-21 v1"
+local coloredcementversion = "05-21 v1"
 
 
 -- END VARIABLE
@@ -80,3 +86,15 @@ minetest.register_craft({
             {"default:sand", "default:sand", "default:sand"}
   }
 })
+
+-------------------------------
+-- Register Sanded Cement Wall
+-------------------------------
+coloredwalls.register(":walls:cement_sanded", "Cement Sanded Wall", "cement_sanded.png",
+        "coloredcement:sanded", default.node_sound_stone_defaults())
+
+-----------------------------
+-- Register Hard Cement Wall
+-----------------------------
+coloredwalls.register(":walls:cement_hard", "Cement Hard Wall", "cement_hard.png",
+        "coloredcement:hard", default.node_sound_stone_defaults())

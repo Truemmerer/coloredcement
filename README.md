@@ -8,6 +8,8 @@ _______________________________________
 > Adds the following blocks
   - Hard Cement
   - Sanded Cement
+  - Hard Cement Wall
+  - Sanded Cement Wall
 
 > Dependencies
   - Unifydyes
